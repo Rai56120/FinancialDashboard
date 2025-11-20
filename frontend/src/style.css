@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+
+@layer components {
+  .App {
+    @apply flex bg-white;
+  }
+  .navbar {
+    @apply fixed h-screen w-16 m-0 flex flex-col bg-gray-500 shadow-lg;
+  }
+  .nav-icon {
+    @apply relative flex items-center 
+          justify-center p-3
+          hover:bg-gray-400
+          rounded-3xl hover:rounded-2xl
+          transition-all duration-300 ease-linear;
+  }
+  .main-content {
+    @apply w-screen;
+  }
+  .page-title {
+    @apply text-center mb-2 text-2xl;
+  }
+  .page-container {
+    @apply ml-16;
+  }
+  .card {
+    @apply rounded-xl m-1 pb-3 bg-white;
+    box-shadow: 0px 0px 2px 1px rgb(170, 170, 170);
+  }
+  .small-card {
+    @apply rounded-md m-1 bg-white;
+    box-shadow: 0px 0px 1px 1px rgb(230, 230, 230);
+  }
+  .card-title {
+    @apply pl-5 pt-2 pb-2;
+  }
+  .allocation-head {
+    @apply pl-10 pr-10 mb-5 text-center col-span-1;
+  }
+  .submit-button {
+    @apply rounded-md m-1 text-center 
+    transition-all duration-300 ease-linear 
+    hover:bg-gray-100;
+    box-shadow: 0px 0px 2px 0px rgb(170, 170, 170);
+  }
+  .add-stock-item {
+    box-shadow: 0px 0px 2px 0px rgb(170, 170, 170);
+  }
+}

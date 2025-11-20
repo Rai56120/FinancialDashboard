@@ -1,0 +1,146 @@
+{
+    "stocks": {
+        "pea": 
+        {
+        "allocation": [
+            {
+                "title": "LVMH",
+                "amount": 3,
+                "unit_cost": 489.59,
+                "ticker": "MC",
+                "color": "rgb(255, 99, 132)"
+            },
+            {
+                "title": "ASML",
+                "amount": 1,
+                "unit_cost": 598.40,
+                "ticker": "ASML",
+                "color": "rgb(54, 162, 235)"
+            }
+        ],
+        "deposit": 1000,
+        "value": 1001
+        },
+        "cto": 
+        {
+            "allocation": [
+                {
+                    "title": "LVMH",
+                    "amount": 3,
+                    "unit_cost": 489.59,
+                    "ticker": "MC",
+                    "color": "rgb(255, 99, 132)"
+                },
+                {
+                    "title": "ASML",
+                    "amount": 1,
+                    "unit_cost": 598.40,
+                    "ticker": "ASML",
+                    "color": "rgb(54, 162, 235)"
+                }
+            ],
+            "deposit": 10000,
+            "value": 11000
+        }
+    },
+    "investments": 
+    {
+        "accounts":
+        [
+            {
+                "title": "assurance_vie_1",
+                "ucs": [
+                    {
+                        "title": "Stellantis",
+                        "symbol": "X0256X"
+                    },
+                    {
+                        "title": "Stellantis",
+                        "symbol": "X0256X"
+                    }
+                ],
+                "deposit": 7000,
+                "value": 7000
+            },
+            {
+                "title": "assurance_vie_2",
+                "ucs": [
+                    {
+                        "title": "Stellantis",
+                        "symbol": "X0256X"
+                    }
+                ],
+                "deposit": 7000,
+                "value": 8000
+            }
+        ]
+    },
+    "cryptocurrencies": 
+    {
+        "accounts":
+        [
+            {
+                "title": "Binance",
+                "allocation": 
+                [
+                    {
+                        "title": "ETH",
+                        "amount": 0.45,
+                        "unit_cost": 3900,
+                        "ticker": "ETHUSDC",
+                        "color": "rgb(255, 99, 132)"
+                    },
+                    {
+                        "title": "BTC",
+                        "amount": 0.1,
+                        "unit_cost": 110000,
+                        "ticker": "BTCUSDC",
+                        "color": "rgb(54, 162, 235)"
+                    }
+                ],
+                "deposit": 1000,
+                "value": 1001
+            },
+            {
+                "title": "Ledger",
+                "allocation": 
+                [
+                    {
+                        "title": "ETH",
+                        "amount": 0.45,
+                        "unit_cost": 3900,
+                        "ticker": "ETHUSDC",
+                        "color": "rgb(255, 99, 132)"
+                    },
+                    {
+                        "title": "BTC",
+                        "amount": 0.1,
+                        "unit_cost": 110000,
+                        "ticker": "BTCUSDC",
+                        "color": "rgb(54, 162, 235)"
+                    }
+                ],
+                "deposit": 1000,
+                "value": 1001
+            }
+        ]
+    },
+    "trading":
+    {
+        "accounts":
+        [
+            {
+                "title": "FTMO swing 200k€",
+                "status": "active",
+                "cost": 1000,
+                "earned": 0
+            },
+            {
+                "title": "FTMO swing 10k€",
+                "status": "lost",
+                "cost": 90,
+                "earned": 1800
+            }
+        ]
+    }
+}
